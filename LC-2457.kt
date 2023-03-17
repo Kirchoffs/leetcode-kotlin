@@ -23,3 +23,11 @@ class Solution {
         return end * base - n
     }
 }
+
+fun main() {
+    val n = 16L
+    val target = 6
+    val solution = Solution()
+    
+    println(solution.makeIntegerBeautiful(n, target))
+}

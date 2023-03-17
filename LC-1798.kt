@@ -12,3 +12,10 @@ class Solution {
         return res + 1
     }
 }
+
+fun main() {
+    val coins = intArrayOf(1, 3)
+    val solution = Solution()
+
+    println(solution.getMaximumConsecutive(coins))
+}
