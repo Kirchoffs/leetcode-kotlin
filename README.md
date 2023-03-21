@@ -14,3 +14,16 @@ or use the script run.sh
 >> run.sh 2571
 >> run.sh 2457
 ```
+
+## Kotlin Notes
+### IntArray
+```
+val nums = intArrayOf(1, 2, 3)
+```
+
+### For Loop
+```
+for (i in 1 until nums.size) {
+    ...
+}
+```
