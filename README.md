@@ -16,7 +16,9 @@ or use the script run.sh
 ## Kotlin Notes
 ### IntArray
 ```
-val nums = intArrayOf(1, 2, 3)
+val nums: IntArray = intArrayOf(1, 2, 3)
+val sortedNums = nums.sorted().toIntArray()
+val reverseSortedNums = nums.sortedDescending().toIntArray()
 ```
 
 ### For Loop
@@ -33,4 +35,11 @@ List<String> res = new ArrayList<>();
 
 ```
 val res = mutableListOf<String>()
+```
+
+### Max
+```
+val a = 4
+val b = 2
+val max = maxOf(a, b)
 ```
