@@ -21,6 +21,14 @@ val sortedNums = nums.sorted().toIntArray()
 val reverseSortedNums = nums.sortedDescending().toIntArray()
 ```
 
+```
+// In Kotlin
+val nums = IntArray(3) { -1 }
+
+// In Scala
+val nums = Array.fill(3)(-1)
+```
+
 ### For Loop
 ```
 for (i in 1 until nums.size) {
@@ -42,4 +50,13 @@ val res = mutableListOf<String>()
 val a = 4
 val b = 2
 val max = maxOf(a, b)
+```
+
+### Range
+```
+val range = 1 .. 5
+
+for (value in range) {
+    println(value)
+}
 ```
