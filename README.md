@@ -60,3 +60,17 @@ for (value in range) {
     println(value)
 }
 ```
+
+### Cast
+```
+val x = 1
+val y = x.toLong()
+val z = x as Long
+```
+
+### Power
+```
+import kotlin.math.pow
+
+val x = 4.toDouble().pow(2).toInt()
+```
