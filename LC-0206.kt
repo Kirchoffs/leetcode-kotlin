@@ -1,6 +1,5 @@
 class ListNode(var `val`: Int, var next: ListNode?)
 
-
 class Solution {
     fun reverseList(head: ListNode?): ListNode? {
         if (head == null || head.next == null) {
